@@ -8,6 +8,7 @@
 
 :root {
   --black: #131112;
+  --white: #fff;
   --grey: #c5ccd2;
   --light-orangish-brown: #cdac97;
   --moderate-orange: #c67553;
@@ -16,6 +17,35 @@
   --greyish-yellow: #c3c2be;
   --light-greyish-blue: #f0f0f2;
   --dark-greyish-blue: #676d7b;
-  --very-dark-pink: #232122;
+  --very-dark-grey: #232122;
   --dark-cyan-blue: #263038;
+}
+
+body {
+  background-color: var(--light-greyish-blue);
+}
+
+.mansion {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.outer-left-section {
+  width: 10%;
+  background-color: var(--very-dark-grey);
+  position: relative;
+}
+
+.outer-left-roof {
+  width: 0;
+  height: 0;
+  border-left: 5vw solid var(--light-greyish-blue);
+  border-right: 5.3vw solid var(--light-greyish-blue);
+  border-bottom: 3vw solid transparent;
+}
+
+.outer-left-column {
+  height: 400px;
+  border-right: 5px solid var(--white);
+  border-bottom: 15px solid var(--grey);
 }
