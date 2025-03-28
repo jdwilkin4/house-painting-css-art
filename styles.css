@@ -44,6 +44,26 @@ body {
   border-bottom: 3vw solid transparent;
 }
 
+.top {
+  background: var(--grey);
+  height: 1vh;
+  width: 60%;
+  position: absolute;
+  top: 1.2vw;
+  left: 0;
+}
+
+.outer-left-roof-left-line {
+  transform: rotate(150deg);
+  left: -0.5vw;
+}
+
+.outer-left-roof-right-line {
+  transform: rotate(-150deg);
+  top: 1.15vw;
+  left: 4.4vw;
+}
+
 .outer-left-column {
   height: 400px;
   border-right: 5px solid var(--white);
